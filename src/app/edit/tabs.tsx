@@ -48,7 +48,6 @@ export function TabsDemo({ src }: { src: string }) {
             src={src}
             sizes="100vw"
             alt="Description of my image"
-            blur={800}
           />
         </div>
       </TabsContent>
