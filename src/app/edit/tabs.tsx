@@ -1,5 +1,4 @@
 "use client";
-import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { CldImage } from "next-cloudinary";
 
@@ -67,7 +66,6 @@ export function TabsDemo({ src }: { src: string }) {
             src={src}
             sizes="100vw"
             alt="Description of my image"
-            grayscale={true}
           />
         </div>
       </TabsContent>
@@ -87,7 +85,6 @@ export function TabsDemo({ src }: { src: string }) {
             src={src}
             sizes="100vw"
             alt="Description of my image"
-            oilPaint={true}
           />
         </div>
       </TabsContent>
@@ -107,7 +104,6 @@ export function TabsDemo({ src }: { src: string }) {
             src={src}
             sizes="100vw"
             alt="Description of my image"
-            improve={true}
           />
         </div>
       </TabsContent>
