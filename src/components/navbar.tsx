@@ -2,7 +2,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const Navbar = () => {
   return (
-    <div className=" flex-col md:flex">
+    <div className="flex-col md:flex mx-auto">
       <div className="border-b">
         <div className="flex h-16 items-center px-4">
           <h1 className="text-3xl font-bold tracking-tight">Picture Gallery</h1>
